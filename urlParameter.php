@@ -15,8 +15,8 @@
             </tr>
 
             <tr>
-                <td></td>
-                <td></td>
+                <td>Password</td>
+                <td><input type="password" name="password"></td>
             </tr>
 
             <tr>
@@ -29,6 +29,7 @@
     <?php
 
         echo $_POST['name'];
+        echo $_POST['password'];
 
     ?>
 </body>
