@@ -6,7 +6,7 @@
     <title>madLibsGame|php</title>
 </head>
 <body>
-    <form action="madLibsGame.php" action="post">
+    <form action="madLibsGame.php" action="get">
         <table>
             <tr>
                 <td>Color: </td>
@@ -32,7 +32,16 @@
     <br>
 
     <?php
-    
+        $color = $_GET['color'];
+        $pluralNoun = $_GET['pluralNoun'];
+        $celebrity = $_GET['celebrity'];
+
+
+        echo "Roses are $color";
+        echo "<br/>";
+        echo "$pluralNoun are blue";
+        echo "<br/>";
+        echo "I love $celebrity";
     ?>
 </body>
 </html>
