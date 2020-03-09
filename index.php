@@ -26,8 +26,8 @@
     </form>
     <br/>
     <?php
-
-        echo $_GET['name'];
+        $output = $_GET['name'];
+        echo $output;
 
     ?>
 </body>
