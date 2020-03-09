@@ -15,8 +15,8 @@
                 <td><input type="text" name="name"></td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Age: </td>
+                <td><input type="text" name="age"></td>
             </tr>
             <tr>
                 <td>Submit</td>
@@ -27,7 +27,10 @@
     <br/>
     <?php
         $output = $_GET['name'];
+        $outputt = $_GET['age'];
         echo "Your name is: ".$output;
+        echo "<br/>";
+        echo "Your age is: ".$outputt;
 
     ?>
 </body>
