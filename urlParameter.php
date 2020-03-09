@@ -1,3 +1,4 @@
+<!-- Used in bookmarking information on webpages -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,8 +20,8 @@
             </tr>
 
             <tr>
-                <td></td>
-                <td></td>
+                <td>Submit: </td>
+                <td><input type="submit"></td>
             </tr>
         </table>
     </form>
