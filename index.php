@@ -27,7 +27,7 @@
     <br/>
     <?php
         $output = $_GET['name'];
-        echo $output;
+        echo "Your name is: ".$output;
 
     ?>
 </body>
