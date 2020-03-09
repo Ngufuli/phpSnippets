@@ -6,11 +6,7 @@
     <title>php|input</title>
 </head>
 <body>
-    <?php
-
     
-
-    ?>
 
     <form action="index.php" method="get">
         <table>
@@ -28,5 +24,11 @@
             </tr>
         </table>
     </form>
+    <br/>
+    <?php
+
+        echo $_GET['name'];
+
+    ?>
 </body>
 </html>
