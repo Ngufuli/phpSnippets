@@ -10,17 +10,22 @@
         <table>
             <tr>
                 <td>Color: </td>
-                <td></td>
+                <td><input type="text" name="color"></td>
             </tr>
 
             <tr>
                 <td>Plural Noun: </td>
-                <td></td>
+                <td><input type="text" name="pluralNoun"></td>
             </tr>
 
             <tr>
                 <td>Celebrity</td>
-                <td></td>
+                <td><input type="text" name="celebrity"></td>
+            </tr>
+
+            <tr>
+                <td>Submit</td>
+                <td><input type="submit"></td>
             </tr>
         </table>
     </form>
