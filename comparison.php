@@ -31,5 +31,27 @@
         </table>
     
     </form>
+
+
+
+    <?php
+        $one = $_POST['num1'];
+        $two = $_POST['num2'];
+        $three = $_POST['num3'];
+
+        function getMax($num1, $num2, $num3){
+            if($num1>=$num2 && $num1>=$num3){
+                return $num1;
+            }
+            else if($num2>$num3){
+                return $num2;
+            }
+            else{
+                return $num3;
+            }
+        }
+
+        echo getMax($one, $two, $three);
+    ?>
 </body>
 </html>
