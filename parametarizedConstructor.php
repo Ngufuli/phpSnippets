@@ -22,6 +22,16 @@
 
             }
         }
+
+        $bz = new Car("Mercedez Benz", "AMG", 300000);
+        $ms = new Car("Maseratti", "MS4", 400000);
+        $hm = new Car("Hammer", "h3", 4444444);
+
+        echo $bz->make;
+        echo "<br>";
+        echo $ms->make;
+        echo "<br>";
+        echo $hm->make;
 ?>
 </body>
 </html>
