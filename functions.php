@@ -16,6 +16,12 @@
         </tr>
 
         <tr>
+            <td>Enter your age: </td>
+            <td><input type="text" name="l"></td>
+        </tr>
+
+
+        <tr>
             <td>Submit: </td>
             <td><input type="submit" ></td>
         </tr>
@@ -24,12 +30,13 @@
 
     <?php
         $name = $_POST['vl'];
+        $age = $_POST['l'];
 
-        function sayHi($name){
+        function sayHi($name, $age){
             echo "<center>Hello world!</center>";
-            echo "<center><pre>My name is $name</pre></center>";
+            echo "<center><pre>My name is $name and I am $age years old</pre></center>";
         }
-        sayHi($name);
+        sayHi($name, $age);
     ?>
 </body>
 </html>
