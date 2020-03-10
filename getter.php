@@ -23,13 +23,20 @@
         }
 
         function setRating($rating){
-            $this->rating=$rating;
+        //     $this->rating=$rating;
+        
+        if($rating == "G" || $rating=="PG" || $rating=="PG-13" || $rating=="R" || $rating=="NR"){
+            $this->rating = $rating;
         }
+        else{
+            $this->rating="NR";
+        }
+    }
     }
 
     $Avengers = new Movie("Avengers", "PG-13");
 
-    $Avengers->setRating('PG-16');
+    $Avengers->setRating('Hello');
     echo $Avengers->getRating();
 
    
