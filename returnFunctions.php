@@ -12,7 +12,7 @@
     <?php
         function cube($number){
             $value = pow($number, 3);
-            return $value;
+            return $value;// from here we break out of the function 
         }
 
         $answer = cube(5);
