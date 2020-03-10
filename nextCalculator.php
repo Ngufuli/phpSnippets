@@ -29,5 +29,28 @@
             </tr>
         </table>
     </form>
+
+
+    <?php
+        $numberOne = $_POST['num1'];
+        $numberTwo = $_POST['num2'];
+        $operator = $_POST['op'];
+
+        if($operator == '+'){
+            echo $numberOne + $numberTwo;
+        }
+        else if($operator == '-'){
+            echo $numberOne - $numberTwo;
+        }
+        else if($operator == '*'){
+            echo $numberOne * $numberTwo;
+        }
+        else if($operator == '/'){
+            echo $numberOne / $numberTwo;
+        }
+        else if($operator == '%'){
+            echo $numberOne % $numberTwo;
+        }
+    ?>
 </body>
 </html>
