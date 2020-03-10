@@ -16,6 +16,17 @@
             var $author;
             var $pages;
         }
+
+        $novel1 = new Novel;
+        $novel1->title= "Business School";
+        $novel1->author= "Robert Kiyosaki";
+        $novel1->pages= "500";
+
+        $novel2 = new Novel;
+        $novel2->title = "Lord of the rings";
+
+        echo $novel1->author;
+        echo $novel2->title;
     ?>
 </body>
 </html>
