@@ -31,7 +31,7 @@
         $Student1 = new Student('Zam',"Business", 3.5);
         $Student2 = new Student("Zim", "Arts", 3.4);
 
-        e
+        echo $Student1->hasHonors();
     ?>
 </body>
 </html>
