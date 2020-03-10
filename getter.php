@@ -21,10 +21,19 @@
         function getRating(){
             return $this->rating;
         }
+
+        function setRating($rating){
+            $this->rating=$rating;
+        }
     }
 
     $Avengers = new Movie("Avengers", "PG-13");
+
+    $Avengers->setRating('PG-16');
     echo $Avengers->getRating();
+
+   
+    
 ?>
 </body>
 </html>
