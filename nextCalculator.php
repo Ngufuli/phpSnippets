@@ -10,7 +10,7 @@
         <table>
             <tr>
                 <td>Enter the first number:</td>
-                <td><input type="number" name="num1"></td>
+                <td><input type="number" step="0.1" name="num1"></td>
             </tr>
 
             <tr>
