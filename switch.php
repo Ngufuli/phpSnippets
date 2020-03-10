@@ -18,5 +18,31 @@
             </tr>
         </table>
     </form>
+
+    <?php
+        $grade = $_POST['grade'];
+
+        switch($grade){
+            case 'A':
+                echo "You did amazing!";
+            break;
+
+            case 'B':
+                echo "You did good!";
+            break;
+
+            case 'C':
+                echo "You tried";
+            break;
+
+            case 'D':
+                echo "Do better next time";
+            break;
+
+            default:
+                echo "Enter a valid grade from A - D";
+            break;
+        }
+    ?>
 </body>
 </html>
