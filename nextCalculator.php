@@ -14,7 +14,7 @@
             </tr>
 
             <tr>
-                <td>Choose an operation</td>
+                <td>Choose an operation:</td>
                 <td><input type="text" name="op"></td>
             </tr>
 
@@ -50,6 +50,9 @@
         }
         else if($operator == '%'){
             echo $numberOne % $numberTwo;
+        }
+        else{
+            echo "Invalid operator";
         }
     ?>
 </body>
