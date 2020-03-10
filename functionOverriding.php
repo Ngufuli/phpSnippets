@@ -21,10 +21,16 @@
         function education(){
             echo "I am pursuing Finance and Accounting";
         }
+        function country(){
+            echo "I am a swedish citizen";
+        }
     }
 
     $child = new Child();
     $child->country();
+
+    $father = new Father();
+    $father->country();
 ?>
 </body>
 </html>
