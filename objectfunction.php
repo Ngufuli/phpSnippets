@@ -19,7 +19,7 @@
             }
 
             function hasHonors(){
-                if(this->gpa >= 3.5){
+                if($this->gpa >= 3.5){
                     echo "The student has honors";
                 }
                 else{
